@@ -1,0 +1,124 @@
+@media only screen and (max-width: 1000px) {
+  .container {
+    border-radius: 0;
+  }
+  
+  .slider {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .slider .box .bg {
+    width: 65%;
+  }
+  
+  .slider .box .details p {
+    margin-right: 0;
+  }
+  
+  .slider .illustration div {
+    height: 20rem;
+    width: 15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .slider .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .slider .box .bg {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 54%;
+    transform: skewX(0deg);
+  }
+  
+  .slider .box .bg::before {
+    width: 120%;
+    bottom: 0;
+    transform: skewX(0deg);
+  }
+  
+  .slider .box .details {
+    grid-row: 2/span 1;
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 2rem;
+    transform: translateY(-9rem);
+  }
+  
+  .slider .illustration {
+    grid-row: 1/span 1;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prev,
+  .next {
+    display: none;
+  }
+
+  .trail {
+    width: 90%;
+    bottom: 13%;
+  }
+  
+  .trail div {
+    padding: 1rem;
+  }
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header img {
+    margin: auto 0;
+  }
+    
+  .navbar ul li {
+    display: none;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+  }
+
+  .banner .btn {
+    padding: 2rem 3rem;
+  }
+    
+  .box_conteudo {
+    padding: 0;
+  }
+
+  .title,
+  .info_sobre {
+    padding: 1rem 1.5rem;
+  }
+
+  #cards {
+    height: 180vh;
+  }
+
+  .slider .box .details .info {
+    margin-right: 0rem;
+  }
+}
+
