@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  /*testimonials*/
+
+  .testimonial {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        height: 150%;
+    }
+
+    .container {
+        margin-top: 10rem;
+    }
+
+    .conteudo h2 {
+        font-size: 25px;
+    }
+
+    .conteudo {
+        font-size: 17px;
+    }
+}

@@ -599,7 +599,10 @@ header nav ul li a:hover {
   color: #fff;
   background-color: #333;
 }
+/*PROJETOS*/
 
+
+/*FOOTER*/
 .contayner{
 	max-width: 1170px;
 	margin:auto;
@@ -613,10 +616,7 @@ header nav ul li a:hover {
 ul{
 	list-style: none;
 }
-/*PROJETOS*/
 
-
-/*FOOTER*/
 .footer{
 	background-color: #1c1c1c;
   padding: 70px 0;
