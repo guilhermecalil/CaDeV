@@ -211,62 +211,6 @@ main {
     width: 100%;
 }
 
-@media screen and (max-width: 480px) {
-    .conhecimentos-img-wrapper {
-        display: none;
-    }
-
-    .conhecimento i {
-        margin-left: 12rem;
-    }
-
-    .conhecimento:nth-child(1){
-        grid-column: 20 / 1;
-        grid-row: 0 / 5;
-        text-align: center;
-        margin-top: 2rem;
-    }
-    
-    .conhecimento:nth-child(2){
-        grid-column: 20 / 1;
-        grid-row: 0 / 5;
-        text-align: center;
-    }
-
-    .conhecimento:nth-child(3){
-        grid-column: 20 / 1;
-        grid-row: 0 / 5;
-        text-align: center;
-    }
-
-    .conhecimento:nth-child(4){
-        grid-column: 20 / 1;
-        grid-row: 20 / 7;
-        text-align: center;
-    }
-
-    .conhecimento:nth-child(5){
-        grid-column: 20 / 1;
-        grid-row: 20 / 11;
-        text-align: center;
-    }
-
-    .conhecimento:nth-child(6){
-        grid-column: 20 / 1;
-        grid-row: 20 / 15;
-        text-align: center;
-    }
-
-    .sessao-conhecimentos {
-        height: 195vh;
-    }
-
-    .conhecimento-text {
-        font-size: 18px;
-        padding: 0 20px;
-    }
-}
-
 .conhecimentos-img-wrapper img{
     object-fit: cover;
     width: 100%;
