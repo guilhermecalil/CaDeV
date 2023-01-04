@@ -50,7 +50,6 @@ header .navbar {
 
   width: 90%;
   max-width: 980px;
-  height: 10vh;
   
   margin: auto;
 }
@@ -79,32 +78,66 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: #323232;
+  background: rgba(255,255,255, 0.15)
 }
 /*HEADER*/
 
+.box {
+  width: 100%;
+
+  margin-top: 5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo h3 {
+  font-size: 30px;
+}
+
 .container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .secundario__imagem {
-    width: 85%;
+  width: 85%;
 }
 
 .secundario {
-    align-items: center;
-    margin: 0 7em;
+  align-items: center;
+  margin: 0 7em;
 }
 
 .descricao__titulo {
-    font-weight: 700;
-    font-size: 48px;
-    color: var(--branco-principal);
-    margin-bottom: 0.1em;
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--branco-principal);
+  margin-bottom: 0.1em;
 }
 
 .descricao__texto {
-    color: var(--cinza-secundario);
+  color: var(--cinza-secundario);
+}
+
+.dispositivos__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 4em 0;
+}
+
+.dispositivos {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.dispositivos__titulo {
+  font-size: 30px;
+}
+
+.lista__item {
+  font-size: 20px;
 }

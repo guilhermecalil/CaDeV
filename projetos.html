@@ -6,33 +6,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/projetos.css">
         <link rel="stylesheet" href="css/projetos-mobile.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/navbar.css">
         <title>Projetos - CaDeV - Serviços de Desenvolvimento Web</title>
     </head>
     <body>
         <!--NAVBAR-->
-        <header id="menu">
-            <nav class="navbar">
-                <div class="logo2">
-                    <a href="index.html">
-                        <img src="img/logo.png" alt="Logo">
-                    </a>
+        <header>
+            <div class="navbar">
+                <div>
+                    <a href="">
+                        <img
+                            src="img/logo.png"
+                            alt="Rocketseat"
+                        />
+                    </a> 
                 </div>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
+                <div class="menu-section">
+                    <div class="menu-toggle">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Início</a>
+                            </li>
+                            <li>
+                                <a href="sobre.html">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="projetos.html">Projetos</a>
+                            </li>
+                            <li>
+                                <a href="contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </header>
         <!--NAVBAR-->
 
 
         <section>
-            <div>
+            <div class="box">
                 <div class="titulo">
                     <h3>Meus Projetos</h3>
-                    <p>Conheça agora alguns projetos realizados por mim, todo código sera disponibilizado no <a href="https://github.com/guilhermecalil?tab=repositories" target="_blank">GitHub</a></p>
                 </div>
             </div>
         </section>
@@ -41,8 +62,99 @@
             <img src="img/mobile (1).png" alt="Um monitor e um celular com o alura plus aberto" class="secundario__imagem">
             <div class="container__descricao">
                 <h2 class="descricao__titulo">BioGroup</h2>
-                <p class="descricao__texto">Site construido para a empresa BioGroup. Site criado em HTML5, CSS3 e JavaScript responsivo e acessível a todos os usuários. Conheça o site: <a href="https://www.biogroupp.com.br" target="_blank">Clique Aqui!!!</a></p>
+                <p class="descricao__texto">Site construido para a empresa BioGroup. Site criado em HTML5, CSS3 e JavaScript responsivo e acessível a todos os usuários. Conheça o site:</p>
+                <a href="https://www.biogroupp.com.br" target="_blank" class="links">Clique Aqui!!!</a>
             </div>
         </section>
+
+        <section class="container secundario">
+            <div class="container__descricao">
+                <h2 class="descricao__titulo">Fly Commercial </h2>
+                <p class="descricao__texto">Projeto de vínculo comercial e para portifólio pessoal, o intuito do site é contar um pouco sobre a empresa e como dito mostrar seu comercial. Site construido em HTML, CSS e JavaScript.</p>
+            </div>
+            <img src="img/mobile (2).png" alt="Tela da alura plus e do alura língua" class="secundario__imagem">
+        </section>
+
+        <section class="container secundario">
+            <img src="img/mobile (3).png" alt="Um monitor e um celular com o alura plus aberto" class="segundario__imagem">
+            <div class="container__descricao">
+                <h2 class="descricao__titulo">CRUD</h2>
+                <p class="descricao__texto">Sistema de CRUD que registra informações das pessoas, o sistema possuí uma forma de editar e excluir os dados cadastrados, projeto responsivo e totalmente <strong>FUNCIONAL</strong> .</p>
+            </div>
+        </section>
+
+        <section class="container secundario">
+            <div class="container__descricao" style="margin-right: 1rem;">
+                <h2 class="descricao__titulo">Página em Construção</h2>
+                <p class="descricao__texto">Projeto de site em produção, a famosa página 404, esse projeto foi feito em HTML5 e CSS3 apenas. </p>
+            </div>
+            <img src="img/mobile (4).png" alt="Tela da alura plus e do alura língua" class="secundario__imagem">
+        </section>
+
+        <section class="dispositivos">
+            <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
+            <ul class="dispositivos__lista">
+                <li>
+                    <img src="img/tv.png" alt="icone de televisão">
+                    <h3 class="lista__item">TV</h3>
+                </li>
+                <li>
+                    <img src="img/computador.png" alt="icone de computador">
+                    <h3 class="lista__item">Computadores</h3>
+                </li>
+                <li>
+                    <img src="img/celular.png" alt="icone de celular">
+                    <h3 class="lista__item">Celular</h3>
+                </li>
+            </ul>
+        </section>
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="contayner">
+                <div class="rows">
+                    <div class="footer-col">
+                        <h4>Home</h4>
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="projetos.html">Projetos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Projetos</h4>
+                        <ul>
+                            <li><a href="serviços.html">BioGroup</a></li>
+                            <li><a href="serviços.html">CRUD</a></li>
+                            <li><a href="serviços.html">Página Em Construção</a></li>
+                            <li><a href="serviços.html">Netflix Clone</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><a href="contato.html"><i class="fa-solid fa-phone" style="font-size: 1.5rem;"></i> (35) 98885-3782</a></li>
+                            <li><a href="contato.html"><i class="fa-solid fa-envelope" style="font-size: 1.5rem;"></i> contato@cadev.com.br</a></li>
+                            <li><a href="contato.html"><i class="fa-solid fa-map-pin" style="font-size: 1.5rem;"></i> Varginha MG</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://github.com/guilhermecalil"><i class="fa-brands fa-github"></i></a>
+                            <a href= "https://www.instagram.com/guilhermemarangao/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="linkedin.com/in/guilherme-marangão-calil-a86460244"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--FOOTER-->
+
+        <script src="https://kit.fontawesome.com/2de34c3ab2.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/menu.js"></script>
     </body>
 </html>

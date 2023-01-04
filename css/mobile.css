@@ -23,13 +23,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-  }
-}
-
 @media only screen and (max-width: 650px) {
   .slider .box {
     grid-template-columns: 1fr;
@@ -78,12 +71,6 @@
   
   .trail div {
     padding: 1rem;
-  }
-}
-
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
   }
 }
 
